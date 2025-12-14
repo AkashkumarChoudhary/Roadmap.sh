@@ -1,0 +1,21 @@
+{
+    "name": "typescript-roadmap-course",
+    "version": "1.0.0",
+    "description": "Learn TypeScript from zero to mastery based on roadmap.sh",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "typescript",
+        "learning",
+        "roadmap.sh"
+    ],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^20.0.0",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.0.0"
+    }
+}
