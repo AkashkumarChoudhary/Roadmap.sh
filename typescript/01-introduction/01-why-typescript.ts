@@ -40,3 +40,7 @@ console.log("User Name:", userName);
 
 // --- TASK ---
 // TODO: Create a variable 'isDone' with a boolean type and try to assign a number to it. Observe the error.
+
+// let isDone: boolean = false;
+// isDone = 42;
+// Error: Type 'number' is not assignable to type 'boolean'.

@@ -60,7 +60,7 @@ class MockServer {
             const newUser = { id: this.users.length + 1, ...request.body };
             this.users.push(newUser);
             return {
-                statusCode: 201, // Created
+                statusCode: 201,
                 headers: { "Content-Type": "application/json" },
                 body: newUser,
             };
